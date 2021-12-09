@@ -1,3 +1,3 @@
 # Boids
 
-![screen-gif](./images/boids_running.gif)
+![screen-gif](./Images/boids_running.gif)
