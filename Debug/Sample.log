@@ -936,7 +936,7 @@
        Overriding target "GetNativeManifest" in project "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" with target "GetNativeManifest" from project "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets".
        Overriding target "GetTargetPathWithTargetPlatformMoniker" in project "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" with target "GetTargetPathWithTargetPlatformMoniker" from project "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.Cpp.DesignTime.targets".
        The target "CoreCompile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VisualStudio\v16.0\CodeAnalysis\Microsoft.CodeAnalysis.targets (59,12)" does not exist in the project, and will be ignored.
-Build started 12/8/2021 4:34:51 PM.
+Build started 12/8/2021 4:49:31 PM.
 Logging verbosity is set to: Detailed.     1>Project "C:\Users\gener\OneDrive\School\2021_Fall_term\CS450\Project7\SampleFreeGlut2019\Boids-Portfolio-Project\Sample.vcxproj" on node 2 (Build target(s)).
      1>Building with tools version "Current".
        Project file contains ToolsVersion="15.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="Current". For more information, please see http://go.microsoft.com/fwlink/?LinkId=293424.
@@ -961,10 +961,10 @@ Logging verbosity is set to: Detailed.     1>Project "C:\Users\gener\OneDrive\Sc
      1>Target "SetTelemetryEnvironmentVariables" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.Cpp.DesignTime.targets" from project "C:\Users\gener\OneDrive\School\2021_Fall_term\CS450\Project7\SampleFreeGlut2019\Boids-Portfolio-Project\Sample.vcxproj" (target "Build" depends on it):
        Using "SetEnv" task from assembly "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.Build.CppTasks.Common.dll".
        Task "SetEnv"
-         VSTEL_SolutionSessionID={FE83E918-1A26-4215-9F79-B26FF4808874}
+         VSTEL_SolutionSessionID={3291A204-7E37-460D-87B8-16A97DB2984D}
        Done executing task "SetEnv".
        Task "SetEnv"
-         VSTEL_CurrentSolutionBuildID=199621750
+         VSTEL_CurrentSolutionBuildID=200501640
        Done executing task "SetEnv".
        Task "SetEnv"
          VSTEL_ProjectID={3A18C8BB-2941-432F-8F8B-BEB51352D229}
@@ -1558,4 +1558,4 @@ Build succeeded.
     1 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:00.04
+Time Elapsed 00:00:00.14
