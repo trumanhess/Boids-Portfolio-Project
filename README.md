@@ -15,3 +15,5 @@ Certain simulation parameters are made editable so that the user can create coun
 
 ![user interface window](./Images/edit_window.PNG)
 
+The boid code can be found in boid.cpp and the code that calls and aggregates the boid rules can be found in sample.cpp from lines 1849-1892 in the UpdateBoids function.
+
