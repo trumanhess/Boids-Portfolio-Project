@@ -858,7 +858,7 @@ InitGraphics( )
 	fprintf( stderr, "Status: Using GLEW %s\n", glewGetString(GLEW_VERSION));
 #endif
 
-	Texture1 = BmpToTexture("sky.bmp", &tex1Width, &tex1Height);
+	Texture1 = BmpToTexture("Assets/Textures/sky.bmp", &tex1Width, &tex1Height);
 	glPixelStorei(GL_UNPACK_ALIGNMENT, 1);
 	glGenTextures(1, &Tex1);
 	glBindTexture(GL_TEXTURE_2D, Tex1);
@@ -868,7 +868,7 @@ InitGraphics( )
 	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
 	glTexImage2D(GL_TEXTURE_2D, 0, 3, tex1Width, tex1Height, 0, GL_RGB, GL_UNSIGNED_BYTE, Texture1);
 
-	Texture2 = BmpToTexture("grass.bmp", &tex2Width, &tex2Height);
+	Texture2 = BmpToTexture("Assets/Textures/grass.bmp", &tex2Width, &tex2Height);
 	glPixelStorei(GL_UNPACK_ALIGNMENT, 1);
 	glGenTextures(1, &Tex2);
 	glBindTexture(GL_TEXTURE_2D, Tex2);
@@ -983,7 +983,7 @@ InitLists( )
 
 	BoidList = glGenLists(1);
 	glNewList(BoidList, GL_COMPILE);
-		LoadObjFile("seagull-low-poly.obj");
+		LoadObjFile("Assets/Models/seagull-low-poly.obj");
 	glEndList();
 
 	FloorList = glGenLists(1);

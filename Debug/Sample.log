@@ -936,8 +936,8 @@
        Overriding target "GetNativeManifest" in project "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" with target "GetNativeManifest" from project "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets".
        Overriding target "GetTargetPathWithTargetPlatformMoniker" in project "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" with target "GetTargetPathWithTargetPlatformMoniker" from project "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.Cpp.DesignTime.targets".
        The target "CoreCompile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VisualStudio\v16.0\CodeAnalysis\Microsoft.CodeAnalysis.targets (59,12)" does not exist in the project, and will be ignored.
-Build started 12/11/2021 6:10:31 PM.
-Logging verbosity is set to: Detailed.     1>Project "C:\Users\gener\OneDrive\School\2021_Fall_term\CS450\Project7\SampleFreeGlut2019\Boids-Portfolio-Project\Sample.vcxproj" on node 2 (Rebuild target(s)).
+Build started 12/11/2021 6:15:53 PM.
+Logging verbosity is set to: Detailed.     1>Project "C:\Users\gener\OneDrive\School\2021_Fall_term\CS450\Project7\SampleFreeGlut2019\Boids-Portfolio-Project\Sample.vcxproj" on node 2 (Build target(s)).
      1>Building with tools version "Current".
        Project file contains ToolsVersion="15.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="Current". For more information, please see http://go.microsoft.com/fwlink/?LinkId=293424.
        Target "EnableIntermediateOutputPathMismatchWarning" skipped, due to false condition; ('$(RestoreProjectStyle)' == 'PackageReference') was evaluated as ('' == 'PackageReference').
@@ -958,110 +958,18 @@ Logging verbosity is set to: Detailed.     1>Project "C:\Users\gener\OneDrive\Sc
        Task "Warning" skipped, due to false condition; ( '$(EnableBaseIntermediateOutputPathMismatchWarning)' == 'true' And '$(_InitialBaseIntermediateOutputPath)' != '$(BaseIntermediateOutputPath)' And '$(BaseIntermediateOutputPath)' != '$(MSBuildProjectExtensionsPath)' ) was evaluated as ( '' == 'true' And 'obj\' != 'obj\' And 'obj\' != 'C:\Users\gener\OneDrive\School\2021_Fall_term\CS450\Project7\SampleFreeGlut2019\Boids-Portfolio-Project\obj\' ).
      1>Done building target "_CheckForInvalidConfigurationAndPlatform" in project "Sample.vcxproj".
        Target "_CheckForInvalidConfigurationAndPlatform" skipped. Previously built successfully.
-     1>Target "SetTelemetryEnvironmentVariables" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.Cpp.DesignTime.targets" from project "C:\Users\gener\OneDrive\School\2021_Fall_term\CS450\Project7\SampleFreeGlut2019\Boids-Portfolio-Project\Sample.vcxproj" (target "Rebuild" depends on it):
+     1>Target "SetTelemetryEnvironmentVariables" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.Cpp.DesignTime.targets" from project "C:\Users\gener\OneDrive\School\2021_Fall_term\CS450\Project7\SampleFreeGlut2019\Boids-Portfolio-Project\Sample.vcxproj" (target "Build" depends on it):
        Using "SetEnv" task from assembly "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.Build.CppTasks.Common.dll".
        Task "SetEnv"
-         VSTEL_SolutionSessionID={FE46F197-21F2-41CE-A61F-9C1C17B2C33C}
+         VSTEL_SolutionSessionID={2C1D0300-ACD2-484B-A672-D18FFA002239}
        Done executing task "SetEnv".
        Task "SetEnv"
-         VSTEL_CurrentSolutionBuildID=464556718
+         VSTEL_CurrentSolutionBuildID=464878375
        Done executing task "SetEnv".
        Task "SetEnv"
          VSTEL_ProjectID={3A18C8BB-2941-432F-8F8B-BEB51352D229}
        Done executing task "SetEnv".
      1>Done building target "SetTelemetryEnvironmentVariables" in project "Sample.vcxproj".
-     1>Target "_PrepareForRebuild" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.BuildSteps.Targets" from project "C:\Users\gener\OneDrive\School\2021_Fall_term\CS450\Project7\SampleFreeGlut2019\Boids-Portfolio-Project\Sample.vcxproj" (target "Rebuild" depends on it):
-     1>Done building target "_PrepareForRebuild" in project "Sample.vcxproj".
-     1>Target "BeforeRebuild" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\gener\OneDrive\School\2021_Fall_term\CS450\Project7\SampleFreeGlut2019\Boids-Portfolio-Project\Sample.vcxproj" (target "Rebuild" depends on it):
-     1>Done building target "BeforeRebuild" in project "Sample.vcxproj".
-     1>Target "_PrepareForClean" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.BuildSteps.Targets" from project "C:\Users\gener\OneDrive\School\2021_Fall_term\CS450\Project7\SampleFreeGlut2019\Boids-Portfolio-Project\Sample.vcxproj" (target "Clean" depends on it):
-       Using "Delete" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
-       Task "Delete"
-         Deleting file ".\Debug\Boid.tlog\Boid.lastbuildstate".
-       Done executing task "Delete".
-     1>Done building target "_PrepareForClean" in project "Sample.vcxproj".
-     1>Target "BeforeClean" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\gener\OneDrive\School\2021_Fall_term\CS450\Project7\SampleFreeGlut2019\Boids-Portfolio-Project\Sample.vcxproj" (target "Clean" depends on it):
-     1>Done building target "BeforeClean" in project "Sample.vcxproj".
-       Target "UnmanagedUnregistration" skipped, due to false condition; ((('$(_AssemblyTimestampBeforeCompile)' != '$(_AssemblyTimestampAfterCompile)' or '$(RegisterForComInterop)' != 'true' or '$(OutputType)' != 'library') or
-                           ('$(_AssemblyTimestampBeforeCompile)' == '')) and
-                          Exists('@(_UnmanagedRegistrationCache)')) was evaluated as ((('' != '' or '' != 'true' or 'exe' != 'library') or
-                           ('' == '')) and
-                          Exists('obj\Sample.vcxproj.UnmanagedRegistration.cache')).
-     1>Target "CoreClean" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\gener\OneDrive\School\2021_Fall_term\CS450\Project7\SampleFreeGlut2019\Boids-Portfolio-Project\Sample.vcxproj" (target "Clean" depends on it):
-       Task "Delete"
-         File ".\Debug\\TempCA\Boid.pdb" doesn't exist. Skipping.
-         File ".\Debug\\TempCA\Boid.exe" doesn't exist. Skipping.
-       Done executing task "Delete".
-       Using "ReadLinesFromFile" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
-       Task "ReadLinesFromFile"
-       Done executing task "ReadLinesFromFile".
-       Using "FindUnderPath" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
-       Task "FindUnderPath"
-         Comparison path is ".\Debug\".
-       Done executing task "FindUnderPath".
-       Task "FindUnderPath"
-         Comparison path is ".\Debug\".
-       Done executing task "FindUnderPath".
-       Task "Delete"
-         Deleting file "C:\Users\gener\OneDrive\School\2021_Fall_term\CS450\Project7\SampleFreeGlut2019\Boids-Portfolio-Project\Debug\Boid.exe".
-       Done executing task "Delete".
-       Using "RemoveDuplicates" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
-       Task "RemoveDuplicates"
-       Done executing task "RemoveDuplicates".
-       Using "MakeDir" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
-       Task "MakeDir"
-       Done executing task "MakeDir".
-       Using "WriteLinesToFile" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
-       Task "WriteLinesToFile"
-       Done executing task "WriteLinesToFile".
-     1>Done building target "CoreClean" in project "Sample.vcxproj".
-     1>Target "AssignProjectConfiguration" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\gener\OneDrive\School\2021_Fall_term\CS450\Project7\SampleFreeGlut2019\Boids-Portfolio-Project\Sample.vcxproj" (target "PrepareProjectReferences" depends on it):
-       Using "AssignProjectConfiguration" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
-       Task "AssignProjectConfiguration"
-       Done executing task "AssignProjectConfiguration".
-     1>Done building target "AssignProjectConfiguration" in project "Sample.vcxproj".
-     1>Target "_SplitProjectReferencesByFileExistence" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\gener\OneDrive\School\2021_Fall_term\CS450\Project7\SampleFreeGlut2019\Boids-Portfolio-Project\Sample.vcxproj" (target "PrepareProjectReferences" depends on it):
-       Task "ResolveNonMSBuildProjectOutput" skipped, due to false condition; ('$(BuildingInsideVisualStudio)'=='true' and '@(ProjectReferenceWithConfiguration)'!='') was evaluated as ('true'=='true' and ''!='').
-     1>Done building target "_SplitProjectReferencesByFileExistence" in project "Sample.vcxproj".
-     1>Target "_GetProjectReferenceTargetFrameworkProperties" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\gener\OneDrive\School\2021_Fall_term\CS450\Project7\SampleFreeGlut2019\Boids-Portfolio-Project\Sample.vcxproj" (target "PrepareProjectReferences" depends on it):
-       Using "MSBuild" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
-       Task "MSBuild"
-       Done executing task "MSBuild".
-       Task "GetReferenceNearestTargetFrameworkTask" skipped, due to false condition; ('@(_ProjectReferenceTargetFrameworkPossibilities->Count())' != '0' and '$(ReferringTargetFrameworkForProjectReferences)' != '') was evaluated as ('0' != '0' and '.NETFramework,Version=v4.0' != '').
-     1>Done building target "_GetProjectReferenceTargetFrameworkProperties" in project "Sample.vcxproj".
-     1>Target "PrepareProjectReferences" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\gener\OneDrive\School\2021_Fall_term\CS450\Project7\SampleFreeGlut2019\Boids-Portfolio-Project\Sample.vcxproj" (target "CleanReferencedProjects" depends on it):
-     1>Done building target "PrepareProjectReferences" in project "Sample.vcxproj".
-     1>Target "CleanReferencedProjects" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\gener\OneDrive\School\2021_Fall_term\CS450\Project7\SampleFreeGlut2019\Boids-Portfolio-Project\Sample.vcxproj" (target "Clean" depends on it):
-       Task "MSBuild" skipped, due to false condition; ('$(BuildingInsideVisualStudio)' != 'true' and '$(BuildProjectReferences)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('true' != 'true' and 'true' == 'true' and '' != '').
-     1>Done building target "CleanReferencedProjects" in project "Sample.vcxproj".
-     1>Target "CleanPublishFolder" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\gener\OneDrive\School\2021_Fall_term\CS450\Project7\SampleFreeGlut2019\Boids-Portfolio-Project\Sample.vcxproj" (target "Clean" depends on it):
-       Task "RemoveDir" skipped, due to false condition; ('$(PublishDir)'=='$(OutputPath)app.publish\' and Exists('$(PublishDir)')) was evaluated as ('.\Debug\app.publish\'=='.\Debug\app.publish\' and Exists('.\Debug\app.publish\')).
-     1>Done building target "CleanPublishFolder" in project "Sample.vcxproj".
-     1>Target "AfterClean" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\gener\OneDrive\School\2021_Fall_term\CS450\Project7\SampleFreeGlut2019\Boids-Portfolio-Project\Sample.vcxproj" (target "Clean" depends on it):
-     1>Done building target "AfterClean" in project "Sample.vcxproj".
-       Target "EntityClean" skipped, due to false condition; ('@(EntityDeploy)' != '') was evaluated as ('' != '').
-     1>Target "BeforeCppClean" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppClean.targets" from project "C:\Users\gener\OneDrive\School\2021_Fall_term\CS450\Project7\SampleFreeGlut2019\Boids-Portfolio-Project\Sample.vcxproj" (target "CppClean" depends on it):
-     1>Done building target "BeforeCppClean" in project "Sample.vcxproj".
-     1>Target "CoreCppClean" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppClean.targets" from project "C:\Users\gener\OneDrive\School\2021_Fall_term\CS450\Project7\SampleFreeGlut2019\Boids-Portfolio-Project\Sample.vcxproj" (target "CppClean" depends on it):
-       Task "MakeDir"
-       Done executing task "MakeDir".
-       Using "CppClean" task from assembly "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.Build.CppTasks.Common.dll".
-       Task "CppClean"
-       Done executing task "CppClean".
-       Task "WriteLinesToFile"
-       Done executing task "WriteLinesToFile".
-     1>Done building target "CoreCppClean" in project "Sample.vcxproj".
-     1>Target "AfterCppClean" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppClean.targets" from project "C:\Users\gener\OneDrive\School\2021_Fall_term\CS450\Project7\SampleFreeGlut2019\Boids-Portfolio-Project\Sample.vcxproj" (target "CppClean" depends on it):
-     1>Done building target "AfterCppClean" in project "Sample.vcxproj".
-     1>Target "PGInstrumentedClean" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppClean.targets" from project "C:\Users\gener\OneDrive\School\2021_Fall_term\CS450\Project7\SampleFreeGlut2019\Boids-Portfolio-Project\Sample.vcxproj" (target "CppClean" depends on it):
-       Task "Delete"
-       Done executing task "Delete".
-     1>Done building target "PGInstrumentedClean" in project "Sample.vcxproj".
-     1>Target "CppClean" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppClean.targets" from project "C:\Users\gener\OneDrive\School\2021_Fall_term\CS450\Project7\SampleFreeGlut2019\Boids-Portfolio-Project\Sample.vcxproj" (target "Clean" depends on it):
-     1>Done building target "CppClean" in project "Sample.vcxproj".
-     1>Target "Clean" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\gener\OneDrive\School\2021_Fall_term\CS450\Project7\SampleFreeGlut2019\Boids-Portfolio-Project\Sample.vcxproj" (target "Rebuild" depends on it):
-     1>Done building target "Clean" in project "Sample.vcxproj".
-       Target "SetTelemetryEnvironmentVariables" skipped. Previously built successfully.
      1>Target "_PrepareForBuild" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.BuildSteps.Targets" from project "C:\Users\gener\OneDrive\School\2021_Fall_term\CS450\Project7\SampleFreeGlut2019\Boids-Portfolio-Project\Sample.vcxproj" (target "Build" depends on it):
        Task "CreateItem" skipped, due to false condition; ('%(CustomBuild.IncludeFileToTool)'!='') was evaluated as (''!='').
      1>Done building target "_PrepareForBuild" in project "Sample.vcxproj".
@@ -1071,8 +979,23 @@ Logging verbosity is set to: Detailed.     1>Project "C:\Users\gener\OneDrive\Sc
        Target "ComputeCrtSDKReference" skipped, due to false condition; ('@(ClCompile)'!='' and '$(WindowsAppContainer)'=='true' and '$(UseCrtSDKReference)' != 'false') was evaluated as ('boid.cpp;sample.cpp'!='' and 'false'=='true' and '' != 'false').
      1>Target "BeforeResolveReferences" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\gener\OneDrive\School\2021_Fall_term\CS450\Project7\SampleFreeGlut2019\Boids-Portfolio-Project\Sample.vcxproj" (target "ResolveReferences" depends on it):
      1>Done building target "BeforeResolveReferences" in project "Sample.vcxproj".
+     1>Target "AssignProjectConfiguration" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\gener\OneDrive\School\2021_Fall_term\CS450\Project7\SampleFreeGlut2019\Boids-Portfolio-Project\Sample.vcxproj" (target "ResolveReferences" depends on it):
+       Using "AssignProjectConfiguration" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "AssignProjectConfiguration"
+       Done executing task "AssignProjectConfiguration".
+     1>Done building target "AssignProjectConfiguration" in project "Sample.vcxproj".
        Target "AssignProjectConfiguration" skipped. Previously built successfully.
-       Target "PrepareProjectReferences" skipped. Previously built successfully.
+     1>Target "_SplitProjectReferencesByFileExistence" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\gener\OneDrive\School\2021_Fall_term\CS450\Project7\SampleFreeGlut2019\Boids-Portfolio-Project\Sample.vcxproj" (target "PrepareProjectReferences" depends on it):
+       Task "ResolveNonMSBuildProjectOutput" skipped, due to false condition; ('$(BuildingInsideVisualStudio)'=='true' and '@(ProjectReferenceWithConfiguration)'!='') was evaluated as ('true'=='true' and ''!='').
+     1>Done building target "_SplitProjectReferencesByFileExistence" in project "Sample.vcxproj".
+     1>Target "_GetProjectReferenceTargetFrameworkProperties" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\gener\OneDrive\School\2021_Fall_term\CS450\Project7\SampleFreeGlut2019\Boids-Portfolio-Project\Sample.vcxproj" (target "PrepareProjectReferences" depends on it):
+       Using "MSBuild" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "MSBuild"
+       Done executing task "MSBuild".
+       Task "GetReferenceNearestTargetFrameworkTask" skipped, due to false condition; ('@(_ProjectReferenceTargetFrameworkPossibilities->Count())' != '0' and '$(ReferringTargetFrameworkForProjectReferences)' != '') was evaluated as ('0' != '0' and '.NETFramework,Version=v4.0' != '').
+     1>Done building target "_GetProjectReferenceTargetFrameworkProperties" in project "Sample.vcxproj".
+     1>Target "PrepareProjectReferences" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\gener\OneDrive\School\2021_Fall_term\CS450\Project7\SampleFreeGlut2019\Boids-Portfolio-Project\Sample.vcxproj" (target "ResolveProjectReferences" depends on it):
+     1>Done building target "PrepareProjectReferences" in project "Sample.vcxproj".
        Target "_RemoveNameMetadataFromProjectReferenceItems" skipped, due to false condition; ('@(ProjectReference)'!='') was evaluated as (''!='').
      1>Target "ResolveProjectReferences" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\gener\OneDrive\School\2021_Fall_term\CS450\Project7\SampleFreeGlut2019\Boids-Portfolio-Project\Sample.vcxproj" (target "ResolveReferences" depends on it):
        Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and ('$(BuildingInsideVisualStudio)' == 'true' or '$(BuildProjectReferences)' != 'true') and '$(VisualStudioVersion)' != '10.0' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and ('true' == 'true' or 'true' != 'true') and '16.0' != '10.0' and '' != '').
@@ -1127,6 +1050,7 @@ Logging verbosity is set to: Detailed.     1>Project "C:\Users\gener\OneDrive\Sc
      1>Target "PrepareForBuild" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\gener\OneDrive\School\2021_Fall_term\CS450\Project7\SampleFreeGlut2019\Boids-Portfolio-Project\Sample.vcxproj" (target "ResolveAssemblyReferences" depends on it):
        Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)' != 'true' and '$(ConfigurationPlatformExists)' != 'true') was evaluated as ('' != 'true' and 'true' != 'true').
        Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)' != 'true' and '$(_ToolsetFound)' != 'true') was evaluated as ('' != 'true' and 'true' != 'true').
+       Using "MakeDir" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
        Task "MakeDir"
        Done executing task "MakeDir".
        Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(WindowsAppContainer)'=='true' and '$(ConfigurationType)'!='Application' and '$(ConfigurationType)'!='DynamicLibrary' and '$(ConfigurationType)'!='StaticLibrary') was evaluated as (''!='true' and 'false'=='true' and 'Application'!='Application' and 'Application'!='DynamicLibrary' and 'Application'!='StaticLibrary').
@@ -1192,8 +1116,10 @@ Logging verbosity is set to: Detailed.     1>Project "C:\Users\gener\OneDrive\Sc
        Target "PrepareForBuild" skipped. Previously built successfully.
        Target "PrepareForBuild" skipped. Previously built successfully.
      1>Target "InitializeBuildStatus" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\gener\OneDrive\School\2021_Fall_term\CS450\Project7\SampleFreeGlut2019\Boids-Portfolio-Project\Sample.vcxproj" (target "Build" depends on it):
+       Using "ReadLinesFromFile" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
        Task "ReadLinesFromFile"
        Done executing task "ReadLinesFromFile".
+       Using "WriteLinesToFile" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
        Task "WriteLinesToFile"
        Done executing task "WriteLinesToFile".
        Using "Touch" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
@@ -1310,23 +1236,26 @@ Logging verbosity is set to: Detailed.     1>Project "C:\Users\gener\OneDrive\Sc
      1>Done building target "SelectClCompile" in project "Sample.vcxproj".
        Target "ManagedIncrementalBuildPreProcessDependencyGraph" skipped, due to false condition; ('@(ClCompile)' != '' and '$(EnableManagedIncrementalBuild)' == 'True') was evaluated as ('boid.cpp;sample.cpp' != '' and 'false' == 'True').
      1>Target "ClCompile" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets" from project "C:\Users\gener\OneDrive\School\2021_Fall_term\CS450\Project7\SampleFreeGlut2019\Boids-Portfolio-Project\Sample.vcxproj" (target "_ClCompile" depends on it):
-       Task "Delete"
-       Done executing task "Delete".
+       Task "Delete" skipped, due to false condition; ('%(ClCompile.DebugInformationFormat)' != '' and '%(ClCompile.DebugInformationFormat)' != 'None' and '%(ClCompile.DebugInformationFormat)' != 'OldStyle' and '%(ClCompile.ProgramDataBaseFileName)' != '' and !Exists(%(ClCompile.ProgramDataBaseFileName))) was evaluated as ('EditAndContinue' != '' and 'EditAndContinue' != 'None' and 'EditAndContinue' != 'OldStyle' and '.\Debug/vc142.pdb' != '' and !Exists(.\Debug/vc142.pdb)).
        Task "MultiToolTask" skipped, due to false condition; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(ClCompile.CompilerIteration)' == '' and '$(MultiProcCL)' == 'true') was evaluated as ('' != 'true' and '' == '' and 'false' == 'true').
        Task "CL" skipped, due to false condition; ('%(ClCompile.PrecompiledHeader)' == 'Create' and '%(ClCompile.ExcludedFromBuild)'!='true' and '%(ClCompile.CompilerIteration)' == '' and '$(MultiProcCL)' != 'true') was evaluated as ('' == 'Create' and ''!='true' and '' == '' and 'false' != 'true').
        Using "CL" task from assembly "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.Build.CppTasks.Common.dll".
        Task "CL"
-         Forcing recompile of all source files due to missing PDB ".\Debug/vc142.pdb".
+         Read Tracking Logs:
+         	.\Debug\Boid.tlog\CL.read.1.tlog
+         Outputs for C:\USERS\GENER\ONEDRIVE\SCHOOL\2021_FALL_TERM\CS450\PROJECT7\SAMPLEFREEGLUT2019\BOIDS-PORTFOLIO-PROJECT\BOID.CPP|C:\USERS\GENER\ONEDRIVE\SCHOOL\2021_FALL_TERM\CS450\PROJECT7\SAMPLEFREEGLUT2019\BOIDS-PORTFOLIO-PROJECT\SAMPLE.CPP:
+         	C:\USERS\GENER\ONEDRIVE\SCHOOL\2021_FALL_TERM\CS450\PROJECT7\SAMPLEFREEGLUT2019\BOIDS-PORTFOLIO-PROJECT\DEBUG\BOID.OBJ
+         	C:\USERS\GENER\ONEDRIVE\SCHOOL\2021_FALL_TERM\CS450\PROJECT7\SAMPLEFREEGLUT2019\BOIDS-PORTFOLIO-PROJECT\DEBUG\SAMPLE.OBJ
+         sample.cpp will be compiled because C:\Users\gener\OneDrive\School\2021_Fall_term\CS450\Project7\SampleFreeGlut2019\Boids-Portfolio-Project\sample.cpp was modified at 12/11/2021 6:15:51 PM.
+         Outputs for C:\USERS\GENER\ONEDRIVE\SCHOOL\2021_FALL_TERM\CS450\PROJECT7\SAMPLEFREEGLUT2019\BOIDS-PORTFOLIO-PROJECT\SAMPLE.CPP:
+         	C:\USERS\GENER\ONEDRIVE\SCHOOL\2021_FALL_TERM\CS450\PROJECT7\SAMPLEFREEGLUT2019\BOIDS-PORTFOLIO-PROJECT\DEBUG\SAMPLE.OBJ
+         Write Tracking Logs:
+         	.\Debug\Boid.tlog\CL.write.1.tlog
          Environment Variables passed to tool:
-           VS_UNICODE_OUTPUT=1244
-         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\bin\HostX86\x86\CL.exe /c /ZI /nologo /W3 /WX- /diagnostics:column /Od /Oy- /D _ALLOW_KEYWORD_MACROS /D _XKEYCHECK_H /D WIN32 /D _DEBUG /D _CONSOLE /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo".\Debug/" /Fd".\Debug/vc142.pdb" /Gd /TP /analyze- /FC /errorReport:prompt boid.cpp sample.cpp
+           VS_UNICODE_OUTPUT=1636
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\bin\HostX86\x86\CL.exe /c /ZI /nologo /W3 /WX- /diagnostics:column /Od /Oy- /D _ALLOW_KEYWORD_MACROS /D _XKEYCHECK_H /D WIN32 /D _DEBUG /D _CONSOLE /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo".\Debug/" /Fd".\Debug/vc142.pdb" /Gd /TP /analyze- /FC /errorReport:prompt sample.cpp
          Tracking command:
-         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Tracker.exe /d "C:\Program Files (x86)\MSBuild\15.0\FileTracker\FileTracker32.dll" /i C:\Users\gener\OneDrive\School\2021_Fall_term\CS450\Project7\SampleFreeGlut2019\Boids-Portfolio-Project\Debug\Boid.tlog /r "C:\USERS\GENER\ONEDRIVE\SCHOOL\2021_FALL_TERM\CS450\PROJECT7\SAMPLEFREEGLUT2019\BOIDS-PORTFOLIO-PROJECT\BOID.CPP|C:\USERS\GENER\ONEDRIVE\SCHOOL\2021_FALL_TERM\CS450\PROJECT7\SAMPLEFREEGLUT2019\BOIDS-PORTFOLIO-PROJECT\SAMPLE.CPP" /b MSBuildConsole_CancelEvent4234d0c87bb240ce8679321d68ea62c6  /c "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\bin\HostX86\x86\CL.exe"  /c /ZI /nologo /W3 /WX- /diagnostics:column /Od /Oy- /D _ALLOW_KEYWORD_MACROS /D _XKEYCHECK_H /D WIN32 /D _DEBUG /D _CONSOLE /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo".\Debug/" /Fd".\Debug/vc142.pdb" /Gd /TP /analyze- /FC /errorReport:prompt boid.cpp sample.cpp
-         boid.cpp
-     1>C:\Users\gener\OneDrive\School\2021_Fall_term\CS450\Project7\SampleFreeGlut2019\Boids-Portfolio-Project\boid.cpp(19,13): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
-     1>C:\Users\gener\OneDrive\School\2021_Fall_term\CS450\Project7\SampleFreeGlut2019\Boids-Portfolio-Project\boid.cpp(45,18): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-     1>C:\Users\gener\OneDrive\School\2021_Fall_term\CS450\Project7\SampleFreeGlut2019\Boids-Portfolio-Project\boid.cpp(96,18): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-     1>C:\Users\gener\OneDrive\School\2021_Fall_term\CS450\Project7\SampleFreeGlut2019\Boids-Portfolio-Project\boid.cpp(128,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Tracker.exe /d "C:\Program Files (x86)\MSBuild\15.0\FileTracker\FileTracker32.dll" /i C:\Users\gener\OneDrive\School\2021_Fall_term\CS450\Project7\SampleFreeGlut2019\Boids-Portfolio-Project\Debug\Boid.tlog /r C:\USERS\GENER\ONEDRIVE\SCHOOL\2021_FALL_TERM\CS450\PROJECT7\SAMPLEFREEGLUT2019\BOIDS-PORTFOLIO-PROJECT\SAMPLE.CPP /b MSBuildConsole_CancelEventcfdd62912ddb4a8081411add563ec08f  /c "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\bin\HostX86\x86\CL.exe"  /c /ZI /nologo /W3 /WX- /diagnostics:column /Od /Oy- /D _ALLOW_KEYWORD_MACROS /D _XKEYCHECK_H /D WIN32 /D _DEBUG /D _CONSOLE /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo".\Debug/" /Fd".\Debug/vc142.pdb" /Gd /TP /analyze- /FC /errorReport:prompt sample.cpp
          sample.cpp
      1>C:\Users\gener\OneDrive\School\2021_Fall_term\CS450\Project7\SampleFreeGlut2019\Boids-Portfolio-Project\sample.cpp(494,54): warning C4305: 'argument': truncation from 'double' to 'float'
      1>C:\Users\gener\OneDrive\School\2021_Fall_term\CS450\Project7\SampleFreeGlut2019\Boids-Portfolio-Project\sample.cpp(499,34): warning C4305: 'initializing': truncation from 'double' to 'float'
@@ -1363,7 +1292,6 @@ Logging verbosity is set to: Detailed.     1>Project "C:\Users\gener\OneDrive\Sc
      1>C:\Users\gener\OneDrive\School\2021_Fall_term\CS450\Project7\SampleFreeGlut2019\Boids-Portfolio-Project\sample.cpp(2265,15): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
      1>C:\Users\gener\OneDrive\School\2021_Fall_term\CS450\Project7\SampleFreeGlut2019\Boids-Portfolio-Project\sample.cpp(2269,16): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
      1>C:\Users\gener\OneDrive\School\2021_Fall_term\CS450\Project7\SampleFreeGlut2019\Boids-Portfolio-Project\sample.cpp(2273,16): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-         Generating Code...
        Done executing task "CL".
      1>Done building target "ClCompile" in project "Sample.vcxproj".
        Target "RunSelectedFileNativeCodeAnalysis" skipped, due to false condition; ('$(RunMsvcAnalysis)'=='true' and '$(SelectedFiles)'!='') was evaluated as ('false'=='true' and ''!='').
@@ -1477,12 +1405,51 @@ Logging verbosity is set to: Detailed.     1>Project "C:\Users\gener\OneDrive\Sc
      1>Target "Link" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets" from project "C:\Users\gener\OneDrive\School\2021_Fall_term\CS450\Project7\SampleFreeGlut2019\Boids-Portfolio-Project\Sample.vcxproj" (target "_Link" depends on it):
        Using "Link" task from assembly "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.Build.CppTasks.Common.dll".
        Task "Link"
+         Write Tracking Logs:
+         	.\Debug\Boid.tlog\link.write.1.tlog
+         Read Tracking Logs:
+         	.\Debug\Boid.tlog\link.read.1.tlog
+         Outputs for C:\USERS\GENER\ONEDRIVE\SCHOOL\2021_FALL_TERM\CS450\PROJECT7\SAMPLEFREEGLUT2019\BOIDS-PORTFOLIO-PROJECT\DEBUG\BOID.OBJ|C:\USERS\GENER\ONEDRIVE\SCHOOL\2021_FALL_TERM\CS450\PROJECT7\SAMPLEFREEGLUT2019\BOIDS-PORTFOLIO-PROJECT\DEBUG\SAMPLE.OBJ:
+         	C:\USERS\GENER\ONEDRIVE\SCHOOL\2021_FALL_TERM\CS450\PROJECT7\SAMPLEFREEGLUT2019\BOIDS-PORTFOLIO-PROJECT\DEBUG\BOID.EXE
+         	C:\USERS\GENER\ONEDRIVE\SCHOOL\2021_FALL_TERM\CS450\PROJECT7\SAMPLEFREEGLUT2019\BOIDS-PORTFOLIO-PROJECT\DEBUG\SAMPLE.PDB
+         Inputs for C:\USERS\GENER\ONEDRIVE\SCHOOL\2021_FALL_TERM\CS450\PROJECT7\SAMPLEFREEGLUT2019\BOIDS-PORTFOLIO-PROJECT\DEBUG\BOID.OBJ|C:\USERS\GENER\ONEDRIVE\SCHOOL\2021_FALL_TERM\CS450\PROJECT7\SAMPLEFREEGLUT2019\BOIDS-PORTFOLIO-PROJECT\DEBUG\SAMPLE.OBJ:
+         	C:\USERS\GENER\ONEDRIVE\SCHOOL\2021_FALL_TERM\CS450\PROJECT7\SAMPLEFREEGLUT2019\BOIDS-PORTFOLIO-PROJECT\GLUI32.LIB
+         	C:\USERS\GENER\ONEDRIVE\SCHOOL\2021_FALL_TERM\CS450\PROJECT7\SAMPLEFREEGLUT2019\BOIDS-PORTFOLIO-PROJECT\GLEW32.LIB
+         	C:\USERS\GENER\ONEDRIVE\SCHOOL\2021_FALL_TERM\CS450\PROJECT7\SAMPLEFREEGLUT2019\BOIDS-PORTFOLIO-PROJECT\FREEGLUT.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.18362.0\UM\X86\GLU32.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.18362.0\UM\X86\OPENGL32.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.18362.0\UM\X86\ODBC32.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.18362.0\UM\X86\ODBCCP32.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.18362.0\UM\X86\KERNEL32.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.18362.0\UM\X86\USER32.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.18362.0\UM\X86\GDI32.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.18362.0\UM\X86\WINSPOOL.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.18362.0\UM\X86\COMDLG32.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.18362.0\UM\X86\ADVAPI32.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.18362.0\UM\X86\SHELL32.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.18362.0\UM\X86\OLE32.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.18362.0\UM\X86\OLEAUT32.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.18362.0\UM\X86\UUID.LIB
+         	C:\USERS\GENER\ONEDRIVE\SCHOOL\2021_FALL_TERM\CS450\PROJECT7\SAMPLEFREEGLUT2019\BOIDS-PORTFOLIO-PROJECT\DEBUG\BOID.OBJ
+         	C:\USERS\GENER\ONEDRIVE\SCHOOL\2021_FALL_TERM\CS450\PROJECT7\SAMPLEFREEGLUT2019\BOIDS-PORTFOLIO-PROJECT\DEBUG\SAMPLE.OBJ
+         	C:\WINDOWS\GLOBALIZATION\SORTING\SORTDEFAULT.NLS
+         	C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2019\COMMUNITY\VC\TOOLS\MSVC\14.26.28801\BIN\HOSTX86\X86\1033\LINKUI.DLL
+         	C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2019\COMMUNITY\VC\TOOLS\MSVC\14.26.28801\LIB\X86\LIBCMTD.LIB
+         	C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2019\COMMUNITY\VC\TOOLS\MSVC\14.26.28801\LIB\X86\OLDNAMES.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.18362.0\UM\X86\WINMM.LIB
+         	C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2019\COMMUNITY\VC\TOOLS\MSVC\14.26.28801\LIB\X86\LIBCPMTD.LIB
+         	C:\USERS\GENER\ONEDRIVE\SCHOOL\2021_FALL_TERM\CS450\PROJECT7\SAMPLEFREEGLUT2019\BOIDS-PORTFOLIO-PROJECT\GLUT32.LIB
+         	C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2019\COMMUNITY\VC\TOOLS\MSVC\14.26.28801\LIB\X86\LIBVCRUNTIMED.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.18362.0\UCRT\X86\LIBUCRTD.LIB
+         	C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2019\COMMUNITY\VC\TOOLS\MSVC\14.26.28801\BIN\HOSTX86\X86\CVTRES.EXE
+         	C:\WINDOWS\SYSTEM32\TZRES.DLL
+         Source compilation required: input C:\USERS\GENER\ONEDRIVE\SCHOOL\2021_FALL_TERM\CS450\PROJECT7\SAMPLEFREEGLUT2019\BOIDS-PORTFOLIO-PROJECT\DEBUG\SAMPLE.OBJ is newer than output C:\USERS\GENER\ONEDRIVE\SCHOOL\2021_FALL_TERM\CS450\PROJECT7\SAMPLEFREEGLUT2019\BOIDS-PORTFOLIO-PROJECT\DEBUG\BOID.EXE.
          Environment Variables passed to tool:
-           VS_UNICODE_OUTPUT=1832
+           VS_UNICODE_OUTPUT=1644
          C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug/Boid.exe" /INCREMENTAL:NO /NOLOGO glui32.lib glew32.lib freeglut.lib glu32.lib opengl32.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:".\Debug/Sample.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:".\Debug\Boid.lib" /MACHINE:X86 /SAFESEH .\Debug/boid.obj
          .\Debug/sample.obj
          Tracking command:
-         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Tracker.exe /a /d "C:\Program Files (x86)\MSBuild\15.0\FileTracker\FileTracker32.dll" /i C:\Users\gener\OneDrive\School\2021_Fall_term\CS450\Project7\SampleFreeGlut2019\Boids-Portfolio-Project\Debug\Boid.tlog /r "C:\USERS\GENER\ONEDRIVE\SCHOOL\2021_FALL_TERM\CS450\PROJECT7\SAMPLEFREEGLUT2019\BOIDS-PORTFOLIO-PROJECT\DEBUG\BOID.OBJ|C:\USERS\GENER\ONEDRIVE\SCHOOL\2021_FALL_TERM\CS450\PROJECT7\SAMPLEFREEGLUT2019\BOIDS-PORTFOLIO-PROJECT\DEBUG\SAMPLE.OBJ" /b MSBuildConsole_CancelEventf6ac48bcd25d42268bff11345ac4f9b7  /c "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\bin\HostX86\x86\link.exe"  /ERRORREPORT:PROMPT /OUT:".\Debug/Boid.exe" /INCREMENTAL:NO /NOLOGO glui32.lib glew32.lib freeglut.lib glu32.lib opengl32.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:".\Debug/Sample.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:".\Debug\Boid.lib" /MACHINE:X86 /SAFESEH .\Debug/boid.obj
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Tracker.exe /a /d "C:\Program Files (x86)\MSBuild\15.0\FileTracker\FileTracker32.dll" /i C:\Users\gener\OneDrive\School\2021_Fall_term\CS450\Project7\SampleFreeGlut2019\Boids-Portfolio-Project\Debug\Boid.tlog /r "C:\USERS\GENER\ONEDRIVE\SCHOOL\2021_FALL_TERM\CS450\PROJECT7\SAMPLEFREEGLUT2019\BOIDS-PORTFOLIO-PROJECT\DEBUG\BOID.OBJ|C:\USERS\GENER\ONEDRIVE\SCHOOL\2021_FALL_TERM\CS450\PROJECT7\SAMPLEFREEGLUT2019\BOIDS-PORTFOLIO-PROJECT\DEBUG\SAMPLE.OBJ" /b MSBuildConsole_CancelEventbfec1726437143f3a82a777c56e40988  /c "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\bin\HostX86\x86\link.exe"  /ERRORREPORT:PROMPT /OUT:".\Debug/Boid.exe" /INCREMENTAL:NO /NOLOGO glui32.lib glew32.lib freeglut.lib glu32.lib opengl32.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:".\Debug/Sample.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:".\Debug\Boid.lib" /MACHINE:X86 /SAFESEH .\Debug/boid.obj
          .\Debug/sample.obj
      1>boid.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
        Done executing task "Link".
@@ -1629,6 +1596,7 @@ Logging verbosity is set to: Detailed.     1>Project "C:\Users\gener\OneDrive\Sc
        Using "ConvertToAbsolutePath" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
        Task "ConvertToAbsolutePath"
        Done executing task "ConvertToAbsolutePath".
+       Using "FindUnderPath" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
        Task "FindUnderPath"
          Comparison path is "C:\Users\gener\OneDrive\School\2021_Fall_term\CS450\Project7\SampleFreeGlut2019\Boids-Portfolio-Project".
        Done executing task "FindUnderPath".
@@ -1638,6 +1606,7 @@ Logging verbosity is set to: Detailed.     1>Project "C:\Users\gener\OneDrive\Sc
        Task "FindUnderPath"
          Comparison path is ".\Debug\".
        Done executing task "FindUnderPath".
+       Using "RemoveDuplicates" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
        Task "RemoveDuplicates"
        Done executing task "RemoveDuplicates".
      1>Done building target "_CleanGetCurrentAndPriorFileWrites" in project "Sample.vcxproj".
@@ -1648,12 +1617,12 @@ Logging verbosity is set to: Detailed.     1>Project "C:\Users\gener\OneDrive\Sc
        Task "FindUnderPath"
          Comparison path is ".\Debug\".
        Done executing task "FindUnderPath".
+       Using "Delete" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
        Task "Delete"
        Done executing task "Delete".
        Task "RemoveDuplicates"
        Done executing task "RemoveDuplicates".
-       Task "WriteLinesToFile"
-       Done executing task "WriteLinesToFile".
+       Task "WriteLinesToFile" skipped, due to false condition; ('@(_CleanUnfilteredPriorFileWrites)'!='@(_CleanUniqueRemainingFileWritesAfterIncrementalClean)') was evaluated as ('C:\Users\gener\OneDrive\School\2021_Fall_term\CS450\Project7\SampleFreeGlut2019\Boids-Portfolio-Project\Debug\Boid.exe'!='C:\Users\gener\OneDrive\School\2021_Fall_term\CS450\Project7\SampleFreeGlut2019\Boids-Portfolio-Project\Debug\Boid.exe').
      1>Done building target "IncrementalClean" in project "Sample.vcxproj".
      1>Target "FinalizeBuildStatus" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "C:\Users\gener\OneDrive\School\2021_Fall_term\CS450\Project7\SampleFreeGlut2019\Boids-Portfolio-Project\Sample.vcxproj" (target "Build" depends on it):
        Task "Delete"
@@ -1663,23 +1632,16 @@ Logging verbosity is set to: Detailed.     1>Project "C:\Users\gener\OneDrive\Sc
          Touching ".\Debug\Boid.tlog\Boid.lastbuildstate".
        Done executing task "Touch".
      1>Done building target "FinalizeBuildStatus" in project "Sample.vcxproj".
-     1>Target "Build" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.BuildSteps.Targets" from project "C:\Users\gener\OneDrive\School\2021_Fall_term\CS450\Project7\SampleFreeGlut2019\Boids-Portfolio-Project\Sample.vcxproj" (target "Rebuild" depends on it):
-     1>Done building target "Build" in project "Sample.vcxproj".
-     1>Target "AfterRebuild" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\gener\OneDrive\School\2021_Fall_term\CS450\Project7\SampleFreeGlut2019\Boids-Portfolio-Project\Sample.vcxproj" (target "Rebuild" depends on it):
-     1>Done building target "AfterRebuild" in project "Sample.vcxproj".
        Target "_CheckForInvalidConfigurationAndPlatform" skipped. Previously built successfully.
-     1>Target "Rebuild" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.BuildSteps.Targets" from project "C:\Users\gener\OneDrive\School\2021_Fall_term\CS450\Project7\SampleFreeGlut2019\Boids-Portfolio-Project\Sample.vcxproj" (entry point):
-     1>Done building target "Rebuild" in project "Sample.vcxproj".
-     1>Done Building Project "C:\Users\gener\OneDrive\School\2021_Fall_term\CS450\Project7\SampleFreeGlut2019\Boids-Portfolio-Project\Sample.vcxproj" (Rebuild target(s)).
+       Target "_CheckForInvalidConfigurationAndPlatform" skipped. Previously built successfully.
+     1>Target "Build" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.BuildSteps.Targets" from project "C:\Users\gener\OneDrive\School\2021_Fall_term\CS450\Project7\SampleFreeGlut2019\Boids-Portfolio-Project\Sample.vcxproj" (entry point):
+     1>Done building target "Build" in project "Sample.vcxproj".
+     1>Done Building Project "C:\Users\gener\OneDrive\School\2021_Fall_term\CS450\Project7\SampleFreeGlut2019\Boids-Portfolio-Project\Sample.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-       "C:\Users\gener\OneDrive\School\2021_Fall_term\CS450\Project7\SampleFreeGlut2019\Boids-Portfolio-Project\Sample.vcxproj" (Rebuild target) (1) ->
+       "C:\Users\gener\OneDrive\School\2021_Fall_term\CS450\Project7\SampleFreeGlut2019\Boids-Portfolio-Project\Sample.vcxproj" (Build target) (1) ->
        (ClCompile target) -> 
-         C:\Users\gener\OneDrive\School\2021_Fall_term\CS450\Project7\SampleFreeGlut2019\Boids-Portfolio-Project\boid.cpp(19,13): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
-         C:\Users\gener\OneDrive\School\2021_Fall_term\CS450\Project7\SampleFreeGlut2019\Boids-Portfolio-Project\boid.cpp(45,18): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-         C:\Users\gener\OneDrive\School\2021_Fall_term\CS450\Project7\SampleFreeGlut2019\Boids-Portfolio-Project\boid.cpp(96,18): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-         C:\Users\gener\OneDrive\School\2021_Fall_term\CS450\Project7\SampleFreeGlut2019\Boids-Portfolio-Project\boid.cpp(128,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
          C:\Users\gener\OneDrive\School\2021_Fall_term\CS450\Project7\SampleFreeGlut2019\Boids-Portfolio-Project\sample.cpp(494,54): warning C4305: 'argument': truncation from 'double' to 'float'
          C:\Users\gener\OneDrive\School\2021_Fall_term\CS450\Project7\SampleFreeGlut2019\Boids-Portfolio-Project\sample.cpp(499,34): warning C4305: 'initializing': truncation from 'double' to 'float'
          C:\Users\gener\OneDrive\School\2021_Fall_term\CS450\Project7\SampleFreeGlut2019\Boids-Portfolio-Project\sample.cpp(563,24): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
@@ -1717,11 +1679,11 @@ Build succeeded.
          C:\Users\gener\OneDrive\School\2021_Fall_term\CS450\Project7\SampleFreeGlut2019\Boids-Portfolio-Project\sample.cpp(2273,16): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
 
 
-       "C:\Users\gener\OneDrive\School\2021_Fall_term\CS450\Project7\SampleFreeGlut2019\Boids-Portfolio-Project\Sample.vcxproj" (Rebuild target) (1) ->
+       "C:\Users\gener\OneDrive\School\2021_Fall_term\CS450\Project7\SampleFreeGlut2019\Boids-Portfolio-Project\Sample.vcxproj" (Build target) (1) ->
        (Link target) -> 
          boid.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
 
-    40 Warning(s)
+    36 Warning(s)
     0 Error(s)
 
 Time Elapsed 00:00:01.35
